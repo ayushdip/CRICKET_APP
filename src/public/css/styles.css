@@ -1,0 +1,15 @@
+#navbar{
+    background-color: darkgreen;
+}
+.navbar-brand{
+    font-family: 'Reggae One', cursive;
+    color : white;
+}
+.nav-link {
+    color : lightgreen;
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+}
+.nav-link:hover{
+    color : white;
+}
