@@ -1,19 +1,27 @@
-#navbar{
-    background-color: darkgreen;
-}
 .navbar-brand{
     font-family: 'Reggae One', cursive;
     color : white;
 }
 .nav-link {
-    color : lightgreen;
+    color : white;
     font-family: 'Indie Flower', cursive;
     font-size: larger;
 }
 .nav-link:hover{
-    color : white;
+    color : lightgreen;
 }
 .card {
     font-family: 'Indie Flower', cursive;
     font-size: larger;
+}
+.heading {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    color : darkgreen;
+    text-align: center;
+    margin : 20px;
+}
+.flowerfont {
+    font-family: 'Indie Flower', cursive;
+    font-size : 25px;
 }
