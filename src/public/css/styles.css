@@ -13,3 +13,7 @@
 .nav-link:hover{
     color : white;
 }
+.card {
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+}
