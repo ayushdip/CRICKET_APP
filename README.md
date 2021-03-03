@@ -29,10 +29,15 @@ The app uses cricapi from which it fetches live scores and player information wh
 ```
 ### Screenshots of the app
 
-
+The image below shows all recent cricket matches going live
 ![Alt text](./images/cricapp1.png?raw=true "Live Matches Information")
 
+After clicking on view details you can get complete scorecard for the match as shown below
+![Alt text](./images/cricapp6.png?raw=true "Live Matches Information")
+
+The image below shows full profile of a player queried by the user
 ![Alt text](./images/cricapp3.png?raw=true "Player Finder")
 
+The image below shows the upcoming matches in the future
 ![Alt text](./images/cricapp5.png?raw=true "Player Finder")
 
