@@ -1,5 +1,5 @@
 $(()=>{
-    $.get('https://cricapi.com/api/matchCalendar?apikey=RR3pOiNZnWUPzHL33mNRfTCSWL53',(Data)=>{
+    $.get('https://cricapi.com/api/matchCalendar?apikey=r54bkFuzPIa7WSQl2Ecm6VNQ8AH2',(Data)=>{
         //console.log(data.matches);
         for(match of Data.data){
             if(match.unique_id=="will generate 1-2 days before match"){
