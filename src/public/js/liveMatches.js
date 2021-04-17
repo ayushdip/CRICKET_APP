@@ -1,4 +1,5 @@
 $(()=>{
+    $('#spinner').show();
     let matchD = {};
     let matchS = {};
     async function getPlayerDetails(pid){
@@ -67,7 +68,9 @@ $(()=>{
                     </div>
                 `)
             }
+            
         }
+        $('#spinner').hide();
         $('.btn').click((ev)=>{
             let unique_id = $(ev.target).attr('data-components');
             console.log(unique_id);
@@ -479,4 +482,5 @@ $(()=>{
         })
         
     })
+    //$('#spinner').hide();
 })

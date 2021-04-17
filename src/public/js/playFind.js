@@ -12,7 +12,7 @@ $(()=>{
         })
     }
     $('#btnSearch').click(()=>{
-        
+        $('#spinner').show();
         let name = $('#pname').val();
         let dummyJson = {
             Mat : 0,
@@ -304,6 +304,7 @@ $(()=>{
                 </div>
                 `)
             }
+            $('#spinner').hide();
         })
         
     })

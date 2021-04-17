@@ -1,5 +1,6 @@
 $(()=>{
     $('#navbar').load('../components/navbar.html');
+    $('#spinner').load('../components/spinner.html');
     $('#content').load('../components/liveMatches.html')
     // lsZaHhLkPTZOVGHmtGCoEOKkeCf2
     // RR3pOiNZnWUPzHL33mNRfTCSWL53

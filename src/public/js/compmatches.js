@@ -1,4 +1,5 @@
 $(()=>{
+    $('#spinner').show();
     let matchD = {};
     let matchS = {};
     function getMatchDetails(match_id){
@@ -54,6 +55,7 @@ $(()=>{
                 }
             }
         }
+        $('#spinner').hide();
         $('.btn').click((ev)=>{
             let unique_id = $(ev.target).attr('data-components');
             console.log(unique_id);

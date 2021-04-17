@@ -1,4 +1,5 @@
 $(()=>{
+    $('#spinner').show();
     $.get('https://cricapi.com/api/matchCalendar?apikey=r54bkFuzPIa7WSQl2Ecm6VNQ8AH2',(Data)=>{
         //console.log(data.matches);
         for(match of Data.data){
@@ -12,7 +13,7 @@ $(()=>{
                 `)
             }
         }
-        
+        $('#spinner').hide();
     })
     
 })
